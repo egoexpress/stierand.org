@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+PRODID:-//Trainingstagebuch//trainingstagebuch.org//
+TITLE:Trainingstagebuch
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20091028T141500Z
+DESCRIPTION:Anzeigen:\nhttp://trainingstagebuch.org/workouts/show/3671455\
+ nTrainingstagebuch:\nhttp://trainingstagebuch.org/workouts/list
+DTEND;TZID=Europe/Berlin:20150401T203000
+DTSTAMP:20150625T165507Z
+DTSTART;TZID=Europe/Berlin:20150401T200000
+LAST-MODIFIED:20150402T074035Z
+LOCATION:Kraft: Dehnungsübungen
+SEQUENCE:0
+STATUS:COMPLETED
+SUMMARY:Kraft (GA1\, 00:30h)
+TRANSP:OPAQUE
+UID:3671455workout0001@trainingstagebuch.org
+URL:http://trainingstagebuch.org/workouts/show/3671455
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20091028T141500Z
+DESCRIPTION:Anzeigen:\nhttp://trainingstagebuch.org/workouts/show/3671454\
+ nTrainingstagebuch:\nhttp://trainingstagebuch.org/workouts/list
+DTEND;TZID=Europe/Berlin:20150401T185700
+DTSTAMP:20150625T165507Z
+DTSTART;TZID=Europe/Berlin:20150401T173000
+LAST-MODIFIED:20150402T073950Z
+LOCATION:Lauf: Lauftraining Post SV
+SEQUENCE:0
+STATUS:COMPLETED
+SUMMARY:Lauf (WSA\, 01:27h)
+TRANSP:OPAQUE
+UID:3671454workout0001@trainingstagebuch.org
+URL:http://trainingstagebuch.org/workouts/show/3671454
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20091028T141500Z
+DESCRIPTION:Anzeigen:\nhttp://trainingstagebuch.org/workouts/show/3669229\
+ nTrainingstagebuch:\nhttp://trainingstagebuch.org/workouts/list
+DTEND;TZID=Europe/Berlin:20150330T212746
+DTSTAMP:20150625T165507Z
+DTSTART;TZID=Europe/Berlin:20150330T195600
+LAST-MODIFIED:20150331T090945Z
+LOCATION:Schwimmen: Schwimmtraining Post SV
+SEQUENCE:0
+STATUS:COMPLETED
+SUMMARY:Schwimmen (WSA\, 01:31h)
+TRANSP:OPAQUE
+UID:3669229workout0001@trainingstagebuch.org
+URL:http://trainingstagebuch.org/workouts/show/3669229
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20091028T141500Z
+DESCRIPTION:Anzeigen:\nhttp://trainingstagebuch.org/workouts/show/3669207\
+ nTrainingstagebuch:\nhttp://trainingstagebuch.org/workouts/list
+DTEND;TZID=Europe/Berlin:20150325T193000
+DTSTAMP:20150625T165507Z
+DTSTART;TZID=Europe/Berlin:20150325T180000
+LAST-MODIFIED:20150331T083423Z
+LOCATION:Lauf: Lauftraining Post SV
+SEQUENCE:0
+STATUS:COMPLETED
+SUMMARY:Lauf (GA1\, 01:30h)
+TRANSP:OPAQUE
+UID:3669207workout0001@trainingstagebuch.org
+URL:http://trainingstagebuch.org/workouts/show/3669207
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20091028T141500Z
+DESCRIPTION:Anzeigen:\nhttp://trainingstagebuch.org/workouts/show/3669227\
+ nTrainingstagebuch:\nhttp://trainingstagebuch.org/workouts/list
+DTEND;TZID=Europe/Berlin:20150330T195500
+DTSTAMP:20150625T165507Z
+DTSTART;TZID=Europe/Berlin:20150330T194000
+LAST-MODIFIED:20150331T090803Z
+LOCATION:Kraft: Stabitraining
+SEQUENCE:0
+STATUS:COMPLETED
+SUMMARY:Kraft (GA1\, 00:15h)
+TRANSP:OPAQUE
+UID:3669227workout0001@trainingstagebuch.org
+URL:http://trainingstagebuch.org/workouts/show/3669227
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20091028T141500Z
+DESCRIPTION:Anzeigen:\nhttp://trainingstagebuch.org/workouts/show/3670042\
+ nTrainingstagebuch:\nhttp://trainingstagebuch.org/workouts/list
+DTEND;TZID=Europe/Berlin:20150331T191948
+DTSTAMP:20150625T165507Z
+DTSTART;TZID=Europe/Berlin:20150331T175900
+LAST-MODIFIED:20150331T223527Z
+LOCATION:Schwimmen: Schwimmtraining Post SV
+SEQUENCE:0
+STATUS:COMPLETED
+SUMMARY:Schwimmen (GA1\, 01:20h)
+TRANSP:OPAQUE
+UID:3670042workout0001@trainingstagebuch.org
+URL:http://trainingstagebuch.org/workouts/show/3670042
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20091028T141500Z
+DESCRIPTION:Anzeigen:\nhttp://trainingstagebuch.org/workouts/show/3670043\
+ nTrainingstagebuch:\nhttp://trainingstagebuch.org/workouts/list
+DTEND;TZID=Europe/Berlin:20150331T203000
+DTSTAMP:20150625T165507Z
+DTSTART;TZID=Europe/Berlin:20150331T200000
+LAST-MODIFIED:20150331T223607Z
+LOCATION:Kraft: Dehnungsübungen
+SEQUENCE:0
+STATUS:COMPLETED
+SUMMARY:Kraft (GA1\, 00:30h)
+TRANSP:OPAQUE
+UID:3670043workout0001@trainingstagebuch.org
+URL:http://trainingstagebuch.org/workouts/show/3670043
+END:VEVENT
+END:VCALENDAR
