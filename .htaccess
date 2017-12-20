@@ -6,6 +6,9 @@ Header set X-Content-Type-Options "nosniff"
 Header set Content-Security-Policy "default-src 'self'; script-src 'unsafe-inline'; style-src https: 'unsafe-inline'; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; img-src 'self' https://known.stierand.org"
 
 RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-SSL} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [NE,R=301]
+
 RewriteCond %{HTTP_HOST} ^stierand\.org [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://stierand.org/$1 [R,L]
@@ -13,3 +16,7 @@ RewriteRule ^(.*)$ https://stierand.org/$1 [R,L]
 RewriteCond %{HTTP_HOST} ^bjoern\.stierand\.org [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://bjoern.stierand.org/$1 [R,L]
+
+RewriteCond %{HTTP_HOST} ^gigabit\.link [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://gigabit.link/$1 [R,L]
