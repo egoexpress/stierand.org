@@ -11,18 +11,14 @@
 		<title>Bj&ouml;rn Stierand</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
     <!-- IndieAuth -->
-    <link href="https://twitter.com/egoexpress" rel="me">
     <link href="https://github.com/egoexpress" rel="me">
     <link href="https://bitbucket.org/egoexpress/" rel="me">
     <link rel="pgpkey" href="/data/gpgkey.pub">
 
-    <!-- H-Card -->
+    <!-- H-Entry/H-Card -->
     <div style="display: none" class="h-entry">
       <div class="h-card p-author">
         <a href="https://known.stierand.org/profile/bjoern" class="icon-container">
@@ -34,8 +30,6 @@
       </div>
 
       <a class="u-url" href="https://bjoern.stierand.org">https://bjoern.stierand.org</a>
-      <!-- Webmention test -->
-      <a href="https://webmention.rocks/test/5"></a>
     </div>
 
     <!-- IndieWeb Authorization Endpoint -->
@@ -48,53 +42,57 @@
     <link rel="micropub" href="https://known.stierand.org/micropub/endpoint">
 
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Bj&ouml;rn Stierand</h1>
-						<p>IT guy &nbsp;&bull;&nbsp; Triathlete &nbsp;&bull;&nbsp; Avid traveller &nbsp;&bull;&nbsp; Net addict</p>
+  <body class="loading">
+  <div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
 
-            <!-- Navigation elements -->
-						<nav>
-							<ul>
-								<li><a href="https://known.stierand.org" target="_blank" class="icon fa-tags" alt="Known IndieWeb"><span class="label">Known IndieWeb</span></a></li>
-								<li><a href="https://blog.triatomic.net" target="_blank" class="icon fa-bicycle" alt="Weblog"><span class="label">Blog</span></a></li>
-								<li><a href="https://egoexpress.newsblur.com" target="_blank" class="icon fa-newspaper-o"><span class="label">Newsblur</span></a></li>
-								<li><a href="https://twitter.com/egoexpress" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/bjoern.stierand" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="https://instagram.com/bstierand" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							</ul>
-              <ul>
-								<li><a href="https://de.foursquare.com/egoexpress" target="_blank" class="icon fa-foursquare"><span class="label">Foursquare</span></a></li>
-								<li><a href="https://github.com/egoexpress" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.xing.com/profile/Bjoern_Stierand" target="_blank" class="icon fa-xing"><span class="label">Xing</span></a></li>
-								<li><a href="https://pinboard.in/u:egoexpress/public/" target="_blank" class="icon fa-bookmark-o"><span class="label">Pinboard</span></a></li>
-								<li><a href="https://www.last.fm/user/ego_express" target="_blank" class="icon fa-lastfm"><span class="label">Last.fm</span></a></li>
-								<li><a href="mailto:bjoern-website@innovention.de" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-              </ul>
-						</nav>
-					</header>
+      <!-- Header -->
+      <header id="header">
+        <h1>Bj&ouml;rn Stierand</h1>
+        <p>IT guy &nbsp;&bull;&nbsp; Triathlete &nbsp;&bull;&nbsp; Avid traveller &nbsp;&bull;&nbsp; Net addict</p>
 
-				<!-- Footer -->
-					<footer id="footer">
-            <span class="copyright">&copy; Bj&ouml;rn Stierand.
-              Design: <a href="http://html5up.net">HTML5 UP</a>.
-              Background: <a href="http://rafta.deviantart.com/art/Endless-wallpaper-340018342">Rafta</a>
-            </span>
-					</footer>
+        <!-- Navigation elements -->
+        <nav>
+          <ul>
+            <li>
+              <a href="https://known.stierand.org" target="_blank" class="icon fa-tags" alt="Known IndieWeb">
+                <span class="label">Known IndieWeb</span>
+              </a>
+            </li>
+            <li><a href="https://blog.triatomic.net" target="_blank" class="icon fa-bicycle" alt="Weblog"><span class="label">Blog</span></a></li>
+            <li><a href="https://egoexpress.newsblur.com" target="_blank" class="icon fa-newspaper-o"><span class="label">Newsblur</span></a></li>
+            <li><a href="https://twitter.com/egoexpress" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.facebook.com/bjoern.stierand" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="https://instagram.com/bstierand" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+          </ul>
+          <ul>
+            <li><a href="https://de.foursquare.com/egoexpress" target="_blank" class="icon fa-foursquare"><span class="label">Foursquare</span></a></li>
+            <li><a href="https://github.com/egoexpress" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+            <li><a href="https://www.xing.com/profile/Bjoern_Stierand" target="_blank" class="icon fa-xing"><span class="label">Xing</span></a></li>
+            <li><a href="https://pinboard.in/u:egoexpress/public/" target="_blank" class="icon fa-bookmark-o"><span class="label">Pinboard</span></a></li>
+            <li><a href="https://www.last.fm/user/ego_express" target="_blank" class="icon fa-lastfm"><span class="label">Last.fm</span></a></li>
+            <li><a href="mailto:bjoern-website@innovention.de" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+          </ul>
+        </nav>
+      </header>
 
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+      <!-- Footer -->
+      <footer id="footer">
+        <span class="copyright">&copy; Bj&ouml;rn Stierand.
+          Design: <a href="http://html5up.net">HTML5 UP</a>.
+          Background: <a href="http://rafta.deviantart.com/art/Endless-wallpaper-340018342">Rafta</a>
+        </span>
+      </footer>
+
+    </div>
+  </div>
+  <script>
+window.onload = function() { document.body.className = ''; }
+window.ontouchmove = function() { return false; }
+window.onorientationchange = function() { document.body.scrollTop = 0; }
+  </script>
+  </body>
 </html>
